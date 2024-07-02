@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+
+}
+#nav{
+    height: 60px;
+    width: 100%;
+    padding: 40px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav a {
+    color: black;
+    font-weight: 550;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px 5px;
+    text-decoration: none;
+}
+#nav a:hover {
+    border: 2px solid red;
+    border-radius: 20px;
+}
+#main-image {
+    background-image: url("./hero-img.jpg");
+    background-size: cover;
+    /* background-color: gray; */
+    height: 400px;
+    width: 100%;
+}
+.fcd {
+    height: 50px;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 100px;
+    position: relative;
+    top: 370px;
+    border: 1px solid black;
+}
+.free1 {
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.free2 {
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+.all-pro {
+    /* background-color: red; */
+    margin-top: 30px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px;
+}
+.all-pro1 {
+    width: 70%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.all-pro2 {
+    width: 20%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.all-pro2 button {
+    background-color: white;
+    border: none;
+}
+.image {
+    /* background-color: azure; */
+    height: 300px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.img1 {
+    border: 2px solid black;
+    height: 100%;
+    width: 23%;
+}
+.mini-img1 {
+    background-image: url("./tshirt.jpg");
+    background-size: cover;
+    /* background-color: grey; */
+    height: 88%;
+    width: 100%;
+}
+.mini-img3 {
+    height: 88%;
+    width: 100%;
+    background-image: url("./art.jpg");
+    background-size: cover;
+}
+.mini-img4 {
+    height: 88%;
+    width: 100%;
+    background-image: url("./bag.jpg");
+    background-size: cover;
+}
+.mini-img5 {
+    height: 88%;
+    width: 100%;
+    background-image: url("./bottel.jpg");
+    background-size: cover;
+}
+.mini-img6 {
+    height: 88%;
+    width: 100%;
+    background-image: url("./corn.jpeg");
+    background-size: cover;
+}
+.mini-img7 {
+    height: 88%;
+    width: 100%;
+    background-image: url("./drawing.jpg");
+    background-size: cover;
+}
+.mini-img8 {
+    height: 88%;
+    width: 100%;
+    background-image: url("./dry.jpg");
+    background-size: cover;
+}
+.mini-img9 {
+    height: 88%;
+    width: 100%;
+    background-image: url("./frame.jpg");
+    background-size: cover;
+}
+.mini-img10 {
+    height: 88%;
+    width: 100%;
+    background-image: url("./game.jpg");
+    background-size: cover;
+}
+.mini-img11 {
+    height: 88%;
+    width: 100%;
+    background-image: url("./gift.jpg");
+    background-size: cover;
+}
+.mini-img12 {
+    height: 88%;
+    width: 100%;
+    background-image: url("./glass.jpeg");
+    background-size: cover;
+}
+.mini-img13 {
+    height: 88%;
+    width: 100%;
+    background-image: url("./wine.jpg");
+    background-size: cover;
+}
+.load-more {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.load-more button {
+    background-color: transparent;
+    font-weight: 600;
+    color: black;
+    padding: 5px 20px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+.foot {
+    background-color: rgb(51, 29, 51);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.foot1 {
+    color: white;
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.foot1 > p a{
+    color: white;
+    text-decoration: none;
+}
+.mini-img2 {
+    color: rgb(25, 38, 90);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
